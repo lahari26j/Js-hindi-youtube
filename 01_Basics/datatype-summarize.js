@@ -30,4 +30,34 @@ const myFunction = function() {
     console.log("Hello world !");
 }
 
-console.log(typeof heros);
+console.log(typeof myFunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+// memory - Stack (primitive), heap (non - primitive)
+
+let myYoutubename = "hiteshchowdaryddotcom"
+let anothername = myYoutubename
+myYoutubename = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    name : "Lahari",
+    Email : "Lahari@Gmail.com",
+    age : 22 
+}
+
+let usertwo = userOne
+userOne.Email= "J@gmail.com"
+
+console.log(usertwo);
+
+
+
+
+
+
